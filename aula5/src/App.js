@@ -1,13 +1,12 @@
-import MyName from './components/MyName'
 import './App.css';
-import { Spa } from './components/Spa';
+import ListUser from './components/Usuarios'
+
 
 function App() {
   return (
     <div>
       <header >
-        <MyName/>
-        <Spa/>
+        <ListUser/>
       </header>
     </div>
   );
