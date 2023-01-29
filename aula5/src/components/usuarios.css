@@ -14,3 +14,6 @@
     justify-content: center;
     gap: 10px;
 }
+.true {
+    background-color: blue;
+}

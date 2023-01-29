@@ -5,6 +5,7 @@ export default function ListUser(props){
     let [mensagem, setMensagem] = useState('')
     const [usuarios, setUsuarios] = useState(['Usuario 1','Usuario 2'])
     const limiteUser = 4
+    const [select, setSelect] = useState(false)
 
     function changeList(){
 
@@ -22,10 +23,10 @@ export default function ListUser(props){
        }
        
     }
-    function changeColor(e){
-        const elementoAtivo = e
-        elementoAtivo.addClass
+    function changeColor(){
+        setSelect(true)
     }
+    console.log(select)
     return(
         <>
         <div>
@@ -36,8 +37,8 @@ export default function ListUser(props){
             {usuarios.map((usuario)=>{
                 return (
                     <>
-                        <div className='user' ativo={} onClick={changeColor}>
-                            <h3 key={usuario.id}>{usuario}</h3> 
+                        <div className='user' onClick={changeColor}>
+                            <h3 key={usuario}>{usuario}</h3> 
                         </div>
                     </>
                 )
