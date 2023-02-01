@@ -1,19 +1,14 @@
-.user{
-    padding:20px;
-    border:1px solid black;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    margin:10px;
-}
-.limite{
-    color:red;
-}
-.groupAdd{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.true {
-    background-color: blue;
-}
+.itemAtivo {
+    background-color: aqua;
+  }
+  p {
+    cursor: pointer;
+    border: 2px solid black;
+    margin: 0;
+    padding: 10px;
+    border-bottom: none;
+  }
+  p:last-child {
+    border-bottom: 2px solid black;
+  }
+  
