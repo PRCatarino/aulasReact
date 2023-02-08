@@ -12,5 +12,3 @@ export function ProductReducer(state, action) {
         return state;
     }
   }
-
-   
